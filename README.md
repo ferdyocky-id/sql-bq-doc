@@ -20,11 +20,5 @@ Why? Because I cater to stakeholders' needs. For a quick snapshot, upper stakeho
 
 ## Data Modeling in Power BI
 
-1. **Sales Order**: Sales data.
-2. **POS Sales Order**: Sales data for offline channel (store or event).
-3. **Stock Available for Sell**: Stock data.
-4. **Stock Transaction**: Or inventory transaction or movement.
-
-
-
-
+1. [**Sales Order**](sql/sales): Sales data.
+2. [**POS Sales Order**](sql/pos-sales): Sales data for offline channel (store or event).
