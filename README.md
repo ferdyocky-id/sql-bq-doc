@@ -18,7 +18,11 @@ Why? Because I cater to stakeholders' needs. For a quick snapshot, upper stakeho
 
 ```
 
-## Data Modeling in Power BI
+## Data Prep for Power BI
 
 1. [**Sales Order**](sql/sales): Sales data.
 2. [**POS Sales Order**](sql/pos-sales): Sales data for offline channel (store or event).
+
+## Data Modeling for Google Sheets
+1. [**Risk Analysis**](sql/risk-analysis):
+2. 
