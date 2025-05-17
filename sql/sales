@@ -1,3 +1,5 @@
+-- Append data from sales order menu in existing and previous WMS.
+
 select
   a.*
 from
@@ -7,7 +9,7 @@ select
 from
   urban-fashion-digital-dwh.tf_db.sales
 where
-  store not like '%EVENT%'
+  store not like '%EVENT%' -- Exclude channel "Event"
 
 union all
 
@@ -17,7 +19,7 @@ from
   urban-fashion-digital-dwh.tf_db.sales_anch
 ) as a
 
-left join
+left join -- Anti left join with sales retur, in order to get clean sales data.
 (
 select
   order_number, sku as sku_variant
